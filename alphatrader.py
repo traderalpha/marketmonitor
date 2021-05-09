@@ -21,12 +21,9 @@ from IPython.core.display import display, HTML
 import nsepy
 
 
-#st.write("# ALPHA TRADER")
-#st.image("Logo.jpg")
-
 col1, mid, col2 = st.beta_columns([1,1,20])
 with col1:
-    st.image('Logo.jpg', width=80, height=60)
+    st.image('Logo.jpg', width=80)
 with col2:
     st.write('# ALPHA TRADER')
 #st.image("", width=60, height=60)
