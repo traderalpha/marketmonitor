@@ -37,7 +37,7 @@ def import_data():
 	Imports and formats data from Dashboard.xlsx
 	
 	"""
-	df = pd.read_excel("C:/Users/admin/Downloads/ProjectFiles/Dashboard.xlsx", header=1, engine='openpyxl')[1:]
+	df = pd.read_excel("Dashboard.xlsx", header=1, engine='openpyxl')[1:]
 	df = df[['Stock code', 'Stock Name', 'Sector', 'Industry','MCAP Cr',  'Current Price Rs', 'Day Change %', 'Week Change %',
 	       'Month Change %', 'Qtr Change %', 'Half Yr Change %', '1Yr change %',
 	       '2Yr price change %', 'Spread 52Week High Low %',
